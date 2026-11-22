@@ -1,0 +1,31 @@
+HR ANALYTICS | BUSINESS REPORT,
+EXECUTIVE SUMMARY,
+,
+KPI,Result
+Total Employees,500
+Active Employees,448
+Employees Left,52
+Attrition Share,10.40%
+Average Salary,"721,629 AMD"
+Monthly Payroll,"323,290,000 AMD"
+,
+,
+KEY FINDINGS,
+,
+Analysis,Finding
+Salary Analysis,IT has the highest average active salary; Customer Support the lowest.
+Department Attrition,Sales has the highest attrition share (18.03%).
+Satisfaction Analysis,Low satisfaction group attrition share: 0.00%.
+Overtime Analysis,High overtime group (>20 hours/month) attrition share: 19.51%.
+Overall Attrition,52 of 500 employees have left (10.40%).
+,
+,
+RECOMMENDATIONS,
+,
+Priority,Recommendation
+High,Review workloads and overtime; validate patterns by department.
+High,Collect feedback from employees with low satisfaction.
+Medium,Assess salary competitiveness before adjusting pay.
+Medium,Investigate the drivers of attrition in Sales.
+,
+Note: The previously reported 31% High Overtime figure is not reproducible with the documented >20 hours threshold; recalculated value shown above.,
