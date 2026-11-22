@@ -1,93 +1,105 @@
-# HR Analytics Dashboard | Excel Data Analysis Project
+# HR Analytics Dashboard | Excel Project
 
-## Project Overview
+An end-to-end HR analytics portfolio project built in **Microsoft Excel**, using a **synthetic dataset of 500 employees across 7 departments**. The workbook brings together data-quality checks, KPI calculations, departmental summaries, dashboard charts, and business recommendations.
 
-This project focuses on analyzing employee data using Microsoft Excel to identify workforce trends, evaluate key HR metrics, and provide data-driven business recommendations.
+## Project Goals
 
-The dataset contains **500 employee records** across 7 departments.
+- Explore workforce composition and department-level differences.
+- Track employee status, compensation, and payroll metrics.
+- Compare the share of employees who left across departments, satisfaction groups, and overtime groups.
+- Present findings in an Excel dashboard and business report.
 
-The project demonstrates practical skills in data cleaning, exploratory data analysis, KPI calculation, data visualization, and business reporting.
+## Tools and Methods
 
-## Project Objectives
+- **Microsoft Excel**: formulas, data validation, conditional calculations, and charting
+- **Functions**: `COUNTIF`, `COUNTIFS`, `SUMIF`, `AVERAGEIF`, and related calculations
+- **Analysis**: KPI reporting, pivot-style summary tables, and data visualization
+- **Reporting**: dashboard and written business recommendations
 
-- Analyze employee demographics and workforce distribution.
-- Calculate and monitor key HR performance indicators.
-- Examine employee attrition across departments.
-- Explore relationships between employee satisfaction, overtime, and attrition.
-- Analyze salary distribution and payroll expenses.
-- Develop an HR dashboard and provide actionable business recommendations.
+## Dataset
 
-## Tools and Skills
+The synthetic dataset contains **500 employee records**. Fields cover employee demographics, department, job title, location, hire date, employment type, salary, performance, satisfaction, overtime, training, promotion, and attrition status.
 
-**Tool:** Microsoft Excel
-
-**Skills demonstrated:**
-- Data Cleaning and Validation
-- Excel Formulas and Functions
-- SUMIF, AVERAGEIF, COUNTIF, COUNTIFS
-- Pivot-style Data Analysis
-- KPI Calculation
-- Data Visualization
-- Dashboard Development
-- Business Reporting
-
-## Dataset Information
-
-The project uses a synthetic HR dataset containing:
-
-- 500 employees
-- 7 departments
-- Employee demographics
-- Salary information
-- Hire dates
-- Performance ratings
-- Satisfaction scores
-- Overtime hours
-- Training hours
-- Promotion history
-- Employee attrition status
+> **Note:** These are simulated records, not confidential employee information.
 
 ## Key Performance Indicators
 
-| KPI | Result |
+| Metric | Value |
 |---|---:|
-| Total Employees | 500 |
-| Active Employees | 448 |
-| Employees Left | 52 |
-| Attrition Share | 10.40% |
-| Active Employee Share | 89.60% |
-| Average Active Salary | 721,629 AMD |
-| Total Monthly Payroll (Active) | 323,290,000 AMD |
-| Number of Departments | 7 |
+| Total employees | 500 |
+| Active employees | 448 |
+| Employees who left | 52 |
+| Share who left | 10.40% |
+| Active employee share | 89.60% |
+| Average monthly salary (active employees) | 721,629 AMD |
+| Total monthly payroll (active employees) | 323,290,000 AMD |
+| Departments | 7 |
 
-## Dashboard Features
+The **10.40%** figure is the proportion of records marked as having left; it should **not** be interpreted as an annual employee turnover rate.
 
-The Excel dashboard includes:
+## Dashboard Visualizations
 
-1. Total Employees
-2. Active Employees
-3. Employees Left
-4. Attrition Share
-5. Average Salary
-6. Monthly Payroll
+The `HR_Dashboard` worksheet includes six KPI cards and charts for:
 
-### Visualizations
+1. Active employees by department
+2. Average salary by department
+3. Active versus left employees
+4. Share who left by department
+5. Share who left by satisfaction level
+6. Share who left by overtime level
 
-- Active Employees by Department
-- Average Salary by Department
-- Active vs. Left Employees
-- Attrition Share by Department
-- Attrition Share by Satisfaction Level
-- Attrition Share by Overtime Level
+## Selected Findings
 
-## Key Findings
+- **IT** has the highest average salary among active employees, while **Customer Support** has the lowest.
+- **Sales** has the highest department-level share of employees who left (**18.03%**).
+- The workbook's **Low Satisfaction** group shows a **0.00%** share who left under its current grouping and calculation.
+- The **High Overtime** group (more than 20 hours per month) shows a **19.51%** share who left.
 
-### 1. Department Analysis
+These findings describe the synthetic dataset. They do not establish cause-and-effect relationships.
 
-- IT has the highest average salary among active employees.
-- Customer Support has the lowest average salary.
-- Sales has the highest attrition share at **18.03%**.
+## Business Recommendations
 
-### 2. Employee Attrition
+- Review workload distribution and overtime practices.
+- Gather employee feedback to understand satisfaction drivers.
+- Evaluate salary competitiveness before making compensation changes.
+- Investigate the comparatively high share of employees who left in Sales.
 
-Out of 500 employees, 52 are
+## Workbook Structure
+
+| Worksheet | Purpose |
+|---|---|
+| `Employees` | Source records and calculated employee attributes |
+| `Departments` | Department reference information |
+| `Data_Dictionary` | Explanation of dataset fields |
+| `Project_Tasks` | Analysis tasks and workflow |
+| `Data_Quality` | Data-quality checks |
+| `KPI_Analysis` | HR KPI calculations |
+| `Pivot_Analysis` | Pivot-style analysis summaries |
+| `Chart_Data` | Data used by charts |
+| `HR_Dashboard` | KPI cards and visualizations |
+| `Business_Report` | Executive summary, findings, and recommendations |
+
+**Important:** `Pivot_Analysis` contains summary tables; these are not native, interactive Excel PivotTables.
+
+## Open the Project
+
+**[Download the Excel workbook](HR_AnalyticsProject.xlsx)**
+
+1. Download the `.xlsx` file from the link above.
+2. Open it in Microsoft Excel.
+3. Start with `HR_Dashboard` for an overview.
+4. Explore `KPI_Analysis` and `Pivot_Analysis` for supporting calculations.
+5. Read `Business_Report` for conclusions and recommendations.
+
+## Limitations
+
+- The dataset is synthetic and is intended for practice and portfolio demonstration.
+- Attrition measures are shares of records by status, not time-based turnover rates.
+- The summary tables are pivot-style outputs, not interactive PivotTables.
+- Differences between groups are descriptive and do not demonstrate causation.
+
+## Author
+
+**Anna Yeghiazaryan**  
+Data Analytics Portfolio Project  
+**Tools:** Microsoft Excel
